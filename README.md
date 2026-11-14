@@ -7,9 +7,11 @@ Repositorio de prueba para practicar el flujo de trabajo con GitHub antes de que
 Cada miembro abre una pull request (PR) que añade un archivo de Python que imprime `Hello World!` por consola.
 
 - **Archivo:** tu usuario de la UPV. Por ejemplo, Marc Sanchis crea `msanlli.py`.
-- **Rama y PR:** tu nombre. Por ejemplo, `marc-sanchis`.
+- **Rama y PR:** tu nombre en minúsculas, sin tildes ni ñ, con guiones. Por ejemplo, `marc-sanchis`.
 
 `example.py` muestra el contenido esperado.
+
+Cada PR pasa unos checks automáticos (GitHub Actions) que comprueban el nombre del archivo, el de la rama y que el script imprima exactamente `Hello World!`. Solo se puede hacer merge con los checks en verde.
 
 ## Pasos
 
